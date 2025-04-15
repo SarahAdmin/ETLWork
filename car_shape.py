@@ -15,5 +15,6 @@ myVar1 = pd.DataFrame(myData2)
 myVar2 = pd.DataFrame(myD1)
 myCars = myVar1.join(myVar2)
 
-print(myCars.shape)
+cars_data = myCars.shape
 
+print(cars_data)
