@@ -1,6 +1,6 @@
 import pandas as pd 
 
-DecDF = pd.read_csv('/content/December Feeback.csv') 
+DecDF = pd.read_csv('December Feeback.csv') 
 
 columnsToDelete = ['Applied On', 'Collected On', 'Anonymized Contact ID', 'Posting ID','Origin',
        'Sources', 'Current Stage', 'Current Stage ID',
